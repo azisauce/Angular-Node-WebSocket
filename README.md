@@ -10,7 +10,7 @@ First, I created an Angular application which is the sender application and inst
 <br><br>
 ` ng new sender-app` <br>
 `cd sender-app `<br>
-`npm install socket.io-client ` <br>
+`npm install socket.io-client ` <br><br>
 Second, I create the server for this application and installed the needed packages:
 <br><br>
 `mkdir sender-server` <br>
