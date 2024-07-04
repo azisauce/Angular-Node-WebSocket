@@ -9,6 +9,7 @@ This project demonstrates communication between two Angular applications using S
 First, I created an Angular application which is the sender application and installed the needed packages:
 
 ng new sender-app
+<br>
 cd sender-app
 npm install socket.io-client
 
