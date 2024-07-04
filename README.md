@@ -8,38 +8,38 @@ This project demonstrates communication between two Angular applications using S
 <br><br>
 First, I created an Angular application which is the sender application and installed the needed packages:
 <br><br>
-` ng new sender-app <br>
-cd sender-app <br>
-npm install socket.io-client `
+` ng new sender-app`
+`cd sender-app `<br>
+`npm install socket.io-client `
 Second, I create the server for this application and installed the needed packages:
 <br><br>
-`mkdir sender-server
-cd sender-server
-npm init -y
-npm install express socket.io cors`
-<br><br>
+`mkdir sender-server` <br>
+`cd sender-server` <br>
+`npm init -y` <br>
+`npm install express socket.io cors` <br>
+<br>
 ### Receiver Application
 <br><br>
 I did the same for the receiver application:
 <br><br> 
-`ng new receiver-app
-cd receiver-app
-npm install socket.io-client
-mkdir receiver-server
-cd receiver-server
-npm init -y
-npm install express socket.io cors`
+`ng new receiver-app` <br>
+`cd receiver-app` <br>
+`npm install socket.io-client` <br>
+`mkdir receiver-server` <br>
+`cd receiver-server` <br>
+`npm init -y` <br>
+`npm install express socket.io cors`
 <br><br>
 Finally, I run both applications: <br>
 <br>
-`cd sender-server
-node index.js
-cd ../sender-app
-ng serve --port 4200
-cd receiver-server
-node index.js
-cd ../receiver-app
-ng serve --port 4201`
+`cd sender-server` <br>
+`node index.js` <br>
+`cd ../sender-app` <br>
+`ng serve --port 4200` <br>
+`cd receiver-server` <br>
+`node index.js` <br>
+`cd ../receiver-app` <br>
+`ng serve --port 4201` 
 <br>
 ### Details
 <br><br>
