@@ -49,7 +49,7 @@ After created the sender application, I set up src/app/app.component.ts to send 
 - I defined a method sendMessage() which is called when a user triggers an action to send a message. <br>
 - I create the HTML template for the component src/app/app.component.html <br>
 <br>
-I set up the NodeJs Server for the sender application:<br>
+I set up the NodeJs Server for the sender application: <br>
 - I imported the needed framework, protocoles such express, http, socket.io and cors <br>
 - I set up the server by creating it <br>
 - I used Socker.IO to handle events such as connection, sending messages and disconnection. <br>
