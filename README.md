@@ -8,9 +8,9 @@ This project demonstrates communication between two Angular applications using S
 <br><br>
 First, I created an Angular application which is the sender application and installed the needed packages:
 <br><br>
-` ng new sender-app`
+` ng new sender-app` <br>
 `cd sender-app `<br>
-`npm install socket.io-client `
+`npm install socket.io-client ` <br>
 Second, I create the server for this application and installed the needed packages:
 <br><br>
 `mkdir sender-server` <br>
